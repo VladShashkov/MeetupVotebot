@@ -9,7 +9,7 @@ class SQLighter:
     def close(self):
         self.connection.close()
         
-TOKEN = '339578780:AAH9qyjhRxLhusZ16fGMZ5XjPdil8bw70do' # полученный у @BotFather
+TOKEN = '339578780:_______hRxLhusZ16fGMZ5XjPdil8bw70do' # полученный у @BotFather
 database_name = 'MeetUpVote.db'
 MEETUP_TIMEOUT = '7200'
 bot = telebot.TeleBot(TOKEN)
